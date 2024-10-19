@@ -75,7 +75,7 @@ button:hover {
     background-color: #218838;
 }
 
-#saran {
+saran {
     margin-top: 20px;
     font-weight: bold;
     padding: 15px;
@@ -83,19 +83,19 @@ button:hover {
     display: none; /* Disembunyikan saat belum ada hasil */
 }
 
-#saran.green {
+saran.green {
     background-color: #d4edda;
     color: #155724;
     border: 1px solid #c3e6cb;
 }
 
-#saran.orange {
+saran.orange {
     background-color: #fff3cd;
     color: #856404;
     border: 1px solid #ffeeba;
 }
 
-#saran.red {
+saran.red {
     background-color: #f8d7da;
     color: #721c24;
     border: 1px solid #f5c6cb;
