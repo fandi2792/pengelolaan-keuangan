@@ -22,6 +22,8 @@
 
     <script src="script.js"></script>
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
     function hitungKeuangan() {
     // Ambil nilai dari input pendapatan dan pengeluaran
     let pendapatan = parseFloat(document.getElementById('pendapatan').value);
@@ -52,4 +54,6 @@
         saran.style.color = "red";
     }
 }
+         });
+</script>
 </html>
